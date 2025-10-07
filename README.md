@@ -66,15 +66,22 @@ DROP PLUGGABLE DATABASE AN_TO_DELETE_PDB_27629 INCLUDING DATAFILES;
 ```
    ![oem](Screenshot/droped_pdb.jpg)'
 
+Task 3
+Log in to OEM Express
+
+Open your browser and go to:
+
+https://localhost:5500/em
+Username: SYS
+
+Password: 12345
+
+Container (Database): AN_PDB_27629
+
+ ![oem](Screenshot/OEM_dashboard.jpg)'
 
 
 
 
-Delete the PDB:
 
-ALTER PLUGGABLE DATABASE AN_TO_DELETE_PDB_27629 CLOSE IMMEDIATE;
-DROP PLUGGABLE DATABASE AN_TO_DELETE_PDB_27629 INCLUDING DATAFILES;
-SHOW PDBS;
-
-🖼️ Screenshot Placeholders
 
